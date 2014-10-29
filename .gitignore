@@ -1,0 +1,19 @@
+#.gitignore file
+#root directory
+*.pidb
+*.sln
+*.csproj
+*.userprefs
+*.csprog
+*.orig
+*.suo
+*.DotSettings
+
+#/Library directory
+/Library
+
+#/obj directory
+/obj
+
+#/Temp directory
+/Temp
