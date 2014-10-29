@@ -1,6 +1,6 @@
 //----------------------------------------------
 //            NGUI: Next-Gen UI kit
-// Copyright © 2011-2012 Tasharen Entertainment
+// Copyright ?2011-2012 Tasharen Entertainment
 //----------------------------------------------
 
 using UnityEngine;
@@ -32,7 +32,7 @@ public class UIImageButtonInspector : Editor
 
 	public override void OnInspectorGUI ()
 	{
-		EditorGUIUtility.LookLikeControls(80f);
+        EditorGUIUtility.labelWidth = 80f;
 		mButton = target as UIImageButton;
 
 		UISprite sprite = EditorGUILayout.ObjectField("Sprite", mButton.target, typeof(UISprite), true) as UISprite;

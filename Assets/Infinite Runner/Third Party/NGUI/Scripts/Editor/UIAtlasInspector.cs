@@ -95,7 +95,7 @@ public class UIAtlasInspector : Editor
 
 	public override void OnInspectorGUI ()
 	{
-		EditorGUIUtility.LookLikeControls(80f);
+        EditorGUIUtility.labelWidth = 80f;
 		mAtlas = target as UIAtlas;
 
 		NGUIEditorTools.DrawSeparator();

@@ -1,6 +1,6 @@
 //----------------------------------------------
 //            NGUI: Next-Gen UI kit
-// Copyright © 2011-2012 Tasharen Entertainment
+// Copyright ?2011-2012 Tasharen Entertainment
 //----------------------------------------------
 
 using UnityEngine;
@@ -310,7 +310,7 @@ public class UIPopupList : MonoBehaviour
 
 	void OnKey (KeyCode key)
 	{
-		if (enabled && gameObject.active && handleEvents)
+		if (enabled && gameObject.activeInHierarchy && handleEvents)
 		{
 			int index = mLabelList.IndexOf(mHighlightedLabel);
 

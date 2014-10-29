@@ -1,6 +1,6 @@
 //----------------------------------------------
 //            NGUI: Next-Gen UI kit
-// Copyright © 2011-2012 Tasharen Entertainment
+// Copyright ?2011-2012 Tasharen Entertainment
 //----------------------------------------------
 
 using UnityEngine;
@@ -34,7 +34,7 @@ public class UIWidgetInspector : Editor
 
 	public override void OnInspectorGUI ()
 	{
-		EditorGUIUtility.LookLikeControls(80f);
+        EditorGUIUtility.labelWidth = 80f;
 		mWidget = target as UIWidget;
 
 		if (!mInitialized)

@@ -69,7 +69,7 @@ public class ComponentSelector : ScriptableWizard
 
 	void OnGUI ()
 	{
-		EditorGUIUtility.LookLikeControls(80f);
+        EditorGUIUtility.labelWidth = 80f;
 
 		if (mObjects.Length == 0)
 		{

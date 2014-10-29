@@ -1,6 +1,6 @@
 //----------------------------------------------
 //            NGUI: Next-Gen UI kit
-// Copyright © 2011-2012 Tasharen Entertainment
+// Copyright ?2011-2012 Tasharen Entertainment
 //----------------------------------------------
 
 using UnityEngine;
@@ -16,7 +16,7 @@ public class NGUITransformInspector : Editor
 	public override void OnInspectorGUI ()
 	{
 		Transform trans = target as Transform;
-		EditorGUIUtility.LookLikeControls(15f);
+		EditorGUIUtility.labelWidth = 15f;
 
 		Vector3 pos;
 		Vector3 rot;
