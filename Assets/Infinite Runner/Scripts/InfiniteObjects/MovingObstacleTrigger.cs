@@ -8,5 +8,6 @@ public class MovingObstacleTrigger : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         parent.OnTriggerEnter(other);
+        Debug.Log("gameObject.tag is " + gameObject.tag);
     }
 }
