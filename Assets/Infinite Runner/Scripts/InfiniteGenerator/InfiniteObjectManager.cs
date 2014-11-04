@@ -62,6 +62,46 @@ public class InfiniteObjectManager : MonoBehaviour {
 	{
 		instance = this;	
 	}
+
+    //public void OnEable()
+    //{
+        
+    //}
+
+    //public void Start()
+    //{
+
+    //}
+    
+    //public void FixedUpdate()
+    //{
+        
+    //}
+    
+    //public void Update()
+    //{
+        
+    //}
+    
+    //public void LateUpdate()
+    //{
+        
+    //}
+    
+    //public void OnGUI()
+    //{
+        
+    //}
+
+    //public void OnDisable()
+    //{
+
+    //}
+
+    //public void OnDestroy()
+    //{
+
+    //}
 	
 	public void init()
 	{
